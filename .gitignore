@@ -1,0 +1,8 @@
+# ignorable caches
+__pycache__/
+*.py[cod]
+env/
+*.log
+
+docs/*.log
+AGENTS.md
