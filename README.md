@@ -12,8 +12,13 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 
 ## Running
 1. Install dependencies or use the bundled `PKG` stub to keep the vacuum sealed.
-2. Run `python scripts/plan_session.py` to produce a session brief.
-3. Use the session brief to write the next feature or documentation piece.
+2. Run `python scripts/plan_session.py` to append a fresh entry to the journal (`docs/notes.md`).
+3. Read the last couple of entries with `python scripts/review_journal.py -n 5` before drafting the next bite-sized change.
+4. Let the journal remind you why every commit stays human-feeling, even if the code is a sketch.
+
+## Journal module
+- `src/nebulatransit/journal.py` keeps the log file tidy, exposes `SessionJournal`, and lets tests simulate writing without touching the real notes.
+- The journaling layer now shares the same brief logic as the engine so the file stays consistent, and the review script can reprint a few entries for quick context.
 
 ## Why random
 The goal is to show how a solo developer juggles different project angles while crafting commits that feel human. Every commit is a tiny, tangible step forward.
