@@ -11,7 +11,7 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 - `docs/notes.md` keeps running commentary so later commits look like they evolved organically.
 
 ## Running
-1. Install dependencies or use the bundled `PKG` stub to keep the vacuum sealed.
+1. Install dependencies with `pip install -r requirements.txt` or grab the bundled `PKG` stub if you just want to browse the code.
 2. Run `python scripts/plan_session.py` to append a fresh entry to the journal (`docs/notes.md`).
 3. Read the last couple of entries with `python scripts/review_journal.py -n 5` before drafting the next bite-sized change.
 4. Let the journal remind you why every commit stays human-feeling, even if the code is a sketch.
