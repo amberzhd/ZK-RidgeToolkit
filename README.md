@@ -15,6 +15,7 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 2. Run `python scripts/plan_session.py` to append a fresh entry to the journal (`docs/notes.md`).
 3. Read the last couple of entries with `python scripts/review_journal.py -n 5` before drafting the next bite-sized change.
 4. Let the journal remind you why every commit stays human-feeling, even if the code is a sketch.
+5. When inspiration runs dry, run `python scripts/list_stack_combos.py` to see new stack blends and pick a fresh focus.
 
 ## Journal module
 - `src/nebulatransit/journal.py` keeps the log file tidy, exposes `SessionJournal`, and lets tests simulate writing without touching the real notes.
