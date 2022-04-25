@@ -21,5 +21,9 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 - `src/nebulatransit/journal.py` keeps the log file tidy, exposes `SessionJournal`, and lets tests simulate writing without touching the real notes.
 - The journaling layer now shares the same brief logic as the engine so the file stays consistent, and the review script can reprint a few entries for quick context.
 
+## Session template
+- Keep `docs/session-template.md` open when you run `scripts/plan_session.py` so every note follows an outline that feels like an actual notebook entry.
+- The template walks through `Focus`, `Stack`, `Goal`, and conversational `Notes` so a reader can tell the story without feeling like the commit was AI-generated.
+
 ## Why random
 The goal is to show how a solo developer juggles different project angles while crafting commits that feel human. Every commit is a tiny, tangible step forward.
