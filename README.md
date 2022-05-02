@@ -25,5 +25,9 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 - Keep `docs/session-template.md` open when you run `scripts/plan_session.py` so every note follows an outline that feels like an actual notebook entry.
 - The template walks through `Focus`, `Stack`, `Goal`, and conversational `Notes` so a reader can tell the story without feeling like the commit was AI-generated.
 
+## Manual entries
+- To stage a handcrafted note, run `python scripts/mock_entry.py --focus \"...\" --stack \"...\" --goal \"...\" --notes \"note1; note2\"`; the script shares the same output format as the engine.
+- You can supply `--timestamp` to pretend the entry was written earlier in the weekend so the timeline feels human.
+
 ## Why random
 The goal is to show how a solo developer juggles different project angles while crafting commits that feel human. Every commit is a tiny, tangible step forward.
