@@ -29,5 +29,8 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 - To stage a handcrafted note, run `python scripts/mock_entry.py --focus \"...\" --stack \"...\" --goal \"...\" --notes \"note1; note2\"`; the script shares the same output format as the engine.
 - You can supply `--timestamp` to pretend the entry was written earlier in the weekend so the timeline feels human.
 
+## Review history
+- `python scripts/monthly_review.py --limit 6` prints monthly buckets plus the newest snippets so the timeline looks like a legitimate side project.
+
 ## Why random
 The goal is to show how a solo developer juggles different project angles while crafting commits that feel human. Every commit is a tiny, tangible step forward.
