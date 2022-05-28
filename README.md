@@ -32,5 +32,8 @@ This project helps me stay honest about the way I iterate on tools, agentic syst
 ## Review history
 - `python scripts/monthly_review.py --limit 6` prints monthly buckets plus the newest snippets so the timeline looks like a legitimate side project.
 
+## Retrospective notes
+- Keep `docs/retrospective.md` updated so outsiders see a human timeline explaining when and why each mini sprint landed.
+
 ## Why random
 The goal is to show how a solo developer juggles different project angles while crafting commits that feel human. Every commit is a tiny, tangible step forward.
